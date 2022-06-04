@@ -1,2 +1,4 @@
-# GonhongCheon.github.io
-My Resume and Practicing page
+# 성장하는 프론트엔드 개발자 💻<br> 🙋🏻‍♂️`천곤홍` 입니다.
+
+🗒 이 페이지는 하루하루 성장하는 제 모습을 보이고,<br>
+제 생각을 정리하기 위해 작성하는 공간입니다!
