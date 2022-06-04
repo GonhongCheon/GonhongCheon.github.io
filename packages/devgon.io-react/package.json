@@ -1,10 +1,10 @@
 {
-  "name": "resume-app-react",
+  "name": "devgon.io-react",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --base=/product/react/",
+    "build": "tsc && vite build --base=/product/react/ --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {

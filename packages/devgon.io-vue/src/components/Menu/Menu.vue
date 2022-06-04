@@ -9,13 +9,13 @@
         <li>
             <router-link to="/contact">Contact</router-link>
         </li>
-        <li class="float-right">
+        <li className="float-right">
             <a href="https://github.com/gonhongcheon" target="_blank" rel="noreferrer">Github</a>
         </li>
     </nav>
 </template>
 
-<script>
+<script lang="ts">
 export default {
     name: 'MenuComponent',
 };

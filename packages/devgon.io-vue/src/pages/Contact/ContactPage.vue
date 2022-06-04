@@ -1,10 +1,10 @@
 <template>
-    <h1>Resume</h1>
+    <h1>Contact</h1>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-    name: 'ResumePage',
+    name: 'ContactPage',
 };
 </script>
 

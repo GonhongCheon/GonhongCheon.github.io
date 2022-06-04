@@ -1,10 +1,10 @@
 {
-  "name": "resume-app-vue",
+  "name": "devgon.io-vue",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build --base=/product/vue/",
+    "build": "vue-tsc --noEmit && vite build --base=/product/vue/ --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {
