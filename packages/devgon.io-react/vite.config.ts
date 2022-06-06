@@ -6,6 +6,7 @@ const path = require('path');
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
+    base: '/product/react/',
     build: {
         outDir: '../../product/react',
     },

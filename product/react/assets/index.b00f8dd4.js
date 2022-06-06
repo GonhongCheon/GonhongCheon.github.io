@@ -85,4 +85,4 @@ Error generating stack: `+o.message+`
   .float-right {
     float: right;
   }
-`;function U0(){return Do("div",{className:"App",children:[ee(D0,{}),ee(F0,{})]})}mi.createRoot(document.getElementById("root")).render(ee(Hn.StrictMode,{children:ee(Pm,{children:ee(U0,{})})}));
+`;function U0(){return Do("div",{className:"App",children:[ee(D0,{}),ee(F0,{})]})}mi.createRoot(document.getElementById("root")).render(ee(Hn.StrictMode,{children:ee(Pm,{basename:"/product/react/",children:ee(U0,{})})}));
