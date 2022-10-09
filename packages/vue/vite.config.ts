@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/vue/',
+    base: '/product/vue/',
     build: {
         emptyOutDir: true,
         outDir: '../../product/vue/',

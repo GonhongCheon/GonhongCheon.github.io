@@ -14,7 +14,7 @@ export default defineConfig({
             '@': path.resolve(__dirname, './src'),
         },
     },
-    base: '/react/',
+    base: '/product/react/',
     server: {
         port: 3000,
     },
