@@ -33,5 +33,10 @@
         "simple-import-sort/exports": "error",
         "typescript-sort-keys/interface": "error",
         "typescript-sort-keys/string-enum": "error"
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
     }
 }

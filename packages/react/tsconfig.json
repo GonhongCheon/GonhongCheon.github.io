@@ -17,7 +17,8 @@
     "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
+      "@src/*": ["src/*"],
+      "~stitches": ["./stitches.config.ts"],
       "@assets/*": ["../../assets/*"]
     }
   },

@@ -9,11 +9,18 @@ export default defineConfig({
         emptyOutDir: true,
         outDir: '../../product/vue/',
     },
+    // css: {
+    //     preprocessorOptions: {
+    //         scss: {
+    //             additionalData: `@import "@/assets/style/variables.scss";`,
+    //         },
+    //     },
+    // },
     plugins: [vue()],
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, './src'),
             '@assets': path.resolve('../../assets'),
+            '@src': path.resolve(__dirname, './src'),
         },
     },
     server: {

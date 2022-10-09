@@ -15,6 +15,9 @@
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:typescript-sort-keys/recommended"
     ],
+    "ignorePatterns": [
+        "node_modules/"
+    ],
     "parserOptions": {
         "project": ["./tsconfig.json"],
         "ecmaVersion": "latest",
@@ -35,5 +38,10 @@
         "simple-import-sort/exports": "error",
         "typescript-sort-keys/interface": "error",
         "typescript-sort-keys/string-enum": "error"
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
     }
 }
